@@ -3,249 +3,153 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>巴特雅仕 BARTHOYASHI · 西服工厂 | Suit Factory</title>
-<meta name="description" content="BARTHOYASHI suit factory: men's suit wholesale, OEM/ODM, bespoke tailoring. 西服批发、贴牌代工、高级定制。">
-<meta name="keywords" content="西服工厂,西服批发,西装定制,OEM代工,ODM贴牌,suit factory,suit wholesale,suit manufacturer,Guangzhou suit factory">
-<meta name="author" content="BARTHOYASHI">
+<title>巴特雅仕 BARTHOYASHI｜广州西服工厂 · 批发 OEM/ODM 定制</title>
+<meta name="description" content="巴特雅仕是广州西服源头工厂，承接批发档口供货、外贸公司 OEM/ODM 贴牌代工与高级定制。小批量起订，中英双语对接。Guangzhou suit factory for wholesale, OEM/ODM and bespoke tailoring.">
+<meta name="keywords" content="西服工厂,西服批发,西装定制,西服OEM,西服ODM,广州西服厂,suit factory,suit manufacturer,suit wholesale,Guangzhou suit factory,OEM suit">
 <link rel="canonical" href="https://www.barthoyashi.cn/">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.barthoyashi.cn/">
+<link rel="alternate" hreflang="en" href="https://www.barthoyashi.cn/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://www.barthoyashi.cn/">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
-<!-- Open Graph / 社交分享 -->
+<link rel="stylesheet" href="assets/style.css">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="BARTHOYASHI 巴特雅仕">
-<meta property="og:title" content="巴特雅仕 BARTHOYASHI · 西服工厂 | Suit Factory">
+<meta property="og:title" content="巴特雅仕 BARTHOYASHI｜广州西服工厂 · 批发 OEM/ODM 定制">
 <meta property="og:description" content="西服批发 / OEM-ODM 贴牌代工 / 高级定制 · Suit wholesale, OEM/ODM manufacturing, bespoke tailoring">
 <meta property="og:url" content="https://www.barthoyashi.cn/">
-<meta property="og:image" content="https://www.barthoyashi.cn/images/hero.png">
+<meta property="og:image" content="https://www.barthoyashi.cn/images/hero.jpg">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:locale:alternate" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<!-- 结构化数据：利于百度/Google 收录 -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://www.barthoyashi.cn/#org",
   "name": "BARTHOYASHI 巴特雅仕",
   "url": "https://www.barthoyashi.cn/",
   "logo": "https://www.barthoyashi.cn/favicon.svg",
-  "description": "西服工厂：团体西服批发、OEM/ODM贴牌代工、高级定制 | Suit factory: wholesale, OEM/ODM, bespoke tailoring",
-  "address": { "@type": "PostalAddress", "addressCountry": "CN", "addressLocality": "广州 Guangzhou" },
-  "contactPoint": [{ "@type": "ContactPoint", "contactType": "sales", "email": "contact@barthoyashi.cn", "availableLanguage": ["zh-CN", "en"] }]
+  "description": "西服工厂：批发供货、OEM/ODM 贴牌代工、高级定制 | Suit factory: wholesale, OEM/ODM, bespoke tailoring",
+  "address": { "@type": "PostalAddress", "addressCountry": "CN", "addressLocality": "广州", "addressRegion": "广东" },
+  "areaServed": ["CN", "Worldwide"],
+  "knowsLanguage": ["zh-CN", "en"],
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "email": "contact@barthoyashi.cn",
+    "availableLanguage": ["zh-CN", "en"]
+  }]
 }
 </script>
-<style>
-  :root {
-    --navy: #10151e;
-    --navy-2: #1a2230;
-    --gold: #c9a55c;
-    --gold-light: #e3c98f;
-    --ink: #2b2b2b;
-    --paper: #f7f4ee;
-    --text-light: #d8dbe2;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Segoe UI", Arial, sans-serif;
-    color: var(--ink);
-    background: var(--paper);
-    line-height: 1.75;
-  }
-  img { max-width: 100%; display: block; }
-  a { text-decoration: none; color: inherit; }
-  .container { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
-
-  /* ===== 双语切换 ===== */
-  .en { display: none; }
-  body.lang-en .en { display: revert; }
-  body.lang-en .zh { display: none; }
-  .lang-btn {
-    cursor: pointer; border: 1px solid rgba(201,165,92,.6); color: var(--gold);
-    background: transparent; font-size: 13px; letter-spacing: 1px;
-    padding: 6px 14px; border-radius: 3px; transition: all .2s;
-  }
-  .lang-btn:hover { background: var(--gold); color: var(--navy); }
-
-  /* ===== 顶部导航 ===== */
-  header {
-    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-    background: rgba(16,21,30,.92); backdrop-filter: blur(8px);
-    border-bottom: 1px solid rgba(201,165,92,.25);
-  }
-  .nav { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 16px; }
-  .brand { color: #fff; font-size: 20px; letter-spacing: 2px; font-weight: 600; white-space: nowrap; }
-  .brand span { color: var(--gold); font-size: 13px; letter-spacing: 3px; margin-left: 10px; font-weight: 400; }
-  nav ul { display: flex; gap: 28px; list-style: none; align-items: center; }
-  nav a { color: var(--text-light); font-size: 14px; letter-spacing: 1px; transition: color .2s; white-space: nowrap; }
-  nav a:hover { color: var(--gold); }
-
-  /* ===== 首页 Hero ===== */
-  .hero {
-    position: relative; min-height: 92vh;
-    display: flex; align-items: center; justify-content: center;
-    text-align: center; overflow: hidden;
-  }
-  .hero::before {
-    content: ""; position: absolute; inset: 0;
-    background: url("images/hero.png") center/cover no-repeat;
-    filter: brightness(.55);
-  }
-  .hero-inner { position: relative; color: #fff; padding: 120px 24px 80px; }
-  .hero h1 { font-size: clamp(32px, 5.5vw, 56px); letter-spacing: 6px; font-weight: 700; margin-bottom: 8px; }
-  .hero .sub { color: var(--gold); letter-spacing: 6px; font-size: clamp(13px, 2vw, 17px); margin-bottom: 24px; }
-  .hero p { max-width: 640px; margin: 0 auto 40px; color: var(--text-light); font-size: 16px; }
-  .btn {
-    display: inline-block; padding: 14px 44px; border: 1px solid var(--gold);
-    color: var(--gold); letter-spacing: 3px; font-size: 15px;
-    transition: all .25s; margin: 8px;
-  }
-  .btn:hover { background: var(--gold); color: var(--navy); }
-  .btn-solid { background: var(--gold); color: var(--navy); }
-  .btn-solid:hover { background: var(--gold-light); }
-
-  /* ===== Section 通用 ===== */
-  section { padding: 88px 0; }
-  .sec-head { text-align: center; margin-bottom: 56px; }
-  .sec-head h2 { font-size: 30px; letter-spacing: 4px; color: var(--navy); }
-  .sec-head .line { width: 56px; height: 2px; background: var(--gold); margin: 16px auto; }
-  .sec-head p { color: #6b6f78; font-size: 15px; }
-
-  /* ===== 关于 ===== */
-  .about { background: #fff; }
-  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
-  .about img { border-radius: 4px; box-shadow: 0 20px 50px rgba(16,21,30,.18); }
-  .about h3 { font-size: 22px; letter-spacing: 2px; margin-bottom: 16px; color: var(--navy); }
-  .about p { color: #555a63; margin-bottom: 14px; }
-  .pill-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
-  .pill-row span {
-    border: 1px solid var(--gold); color: #8a6d33; font-size: 13px;
-    padding: 6px 14px; border-radius: 20px; letter-spacing: 1px;
-  }
-
-  /* ===== 联系 ===== */
-  .contact { background: var(--navy); color: #fff; }
-  .contact .sec-head h2 { color: #fff; }
-  .contact .sec-head p { color: var(--text-light); }
-  .contact-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; text-align: center; }
-  .contact-grid .box { border: 1px solid rgba(201,165,92,.28); padding: 34px 20px; border-radius: 4px; }
-  .contact-grid b { display: block; color: var(--gold); letter-spacing: 2px; margin-bottom: 10px; font-size: 15px; }
-  .contact-grid p { color: var(--text-light); font-size: 14px; }
-  .mail-note { margin-top: 44px; text-align: center; color: #8a8f99; font-size: 13px; letter-spacing: 1px; }
-
-  footer { background: #0b0f16; color: #6b7280; text-align: center; padding: 28px 0; font-size: 13px; letter-spacing: 1px; }
-  footer .gold { color: var(--gold); }
-
-  @media (max-width: 860px) {
-    nav ul { display: none; }
-    .about-grid, .contact-grid { grid-template-columns: 1fr; }
-    section { padding: 64px 0; }
-  }
-</style>
 </head>
 <body>
 
 <header>
   <div class="container nav">
-    <div class="brand">巴特雅仕<span>BARTHOYASHI</span></div>
+    <a class="brand" href="/">巴特雅仕<span>BARTHOYASHI</span></a>
     <nav>
       <ul>
-        <li><a href="#home"><span class="zh">首页</span><span class="en">Home</span></a></li>
-        <li><a href="#about"><span class="zh">关于我们</span><span class="en">About</span></a></li>
-        <li><a href="#contact"><span class="zh">联系我们</span><span class="en">Contact</span></a></li>
-        <li><button class="lang-btn" id="langToggle">EN / 中</button></li>
+        <li><a href="/" aria-current="page"><span class="zh">首页</span><span class="en">Home</span></a></li>
+        <li><a href="products"><span class="zh">产品与代工</span><span class="en">Products</span></a></li>
+        <li><a href="about"><span class="zh">关于工厂</span><span class="en">Factory</span></a></li>
+        <li><a href="contact"><span class="zh">联系我们</span><span class="en">Contact</span></a></li>
+        <li><button class="lang-btn" id="langToggle" type="button">EN / 中</button></li>
       </ul>
     </nav>
   </div>
 </header>
 
-<!-- ===== 首页 ===== -->
+<main>
 <section class="hero" id="home">
   <div class="hero-inner">
     <h1><span class="zh">匠心西服 · 源头工厂</span><span class="en">Suit Factory · From the Source</span></h1>
     <div class="sub"><span class="zh">批发供货 · OEM/ODM 贴牌 · 高级定制</span><span class="en">Wholesale · OEM / ODM · Bespoke Tailoring</span></div>
     <p>
-      <span class="zh">【待填：工厂一句话定位，例如主营品类、优势、服务的客户类型】</span>
-      <span class="en">[TBD: one-line positioning, e.g. product range, strengths, customer types]</span>
+      <span class="zh">广州西服工厂，服务国内批发档口、外贸公司与海外买家。看样、报价、打样、量产，一条线对接到底。</span>
+      <span class="en">A suit factory in Guangzhou serving domestic wholesalers, trading companies and overseas buyers — from sample to quotation to bulk production, in one line.</span>
     </p>
-    <a class="btn btn-solid" href="#contact"><span class="zh">洽谈合作</span><span class="en">Get in Touch</span></a>
-    <a class="btn" href="#about"><span class="zh">了解我们</span><span class="en">About Us</span></a>
+    <a class="btn btn-solid" href="contact"><span class="zh">洽谈合作</span><span class="en">Get in Touch</span></a>
+    <a class="btn" href="products"><span class="zh">查看产品与代工</span><span class="en">Products &amp; OEM</span></a>
   </div>
 </section>
 
-<!-- ===== 关于 ===== -->
-<section class="about" id="about">
-  <div class="container about-grid">
-    <img src="images/hero.png" alt="巴特雅仕 BARTHOYASHI">
-    <div>
-      <h3><span class="zh">关于巴特雅仕</span><span class="en">About BARTHOYASHI</span></h3>
-      <p>
-        <span class="zh">【待填：工厂简介 1——成立时间、所在城市、主营方向】</span>
-        <span class="en">[TBD: intro 1 — founding year, location, main business]</span>
-      </p>
-      <p>
-        <span class="zh">【待填：工厂简介 2——产能、设备、团队规模、品质管控等】</span>
-        <span class="en">[TBD: intro 2 — capacity, equipment, team size, quality control]</span>
-      </p>
-      <div class="pill-row">
-        <span><span class="zh">批发供货</span><span class="en">Wholesale</span></span>
-        <span>OEM / ODM</span>
-        <span><span class="zh">高级定制</span><span class="en">Bespoke</span></span>
-        <span><span class="zh">外贸出口</span><span class="en">Export</span></span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 联系 ===== -->
-<section class="contact" id="contact">
+<section class="bg-white">
   <div class="container">
     <div class="sec-head">
-      <h2><span class="zh">联系我们</span><span class="en">Contact Us</span></h2>
+      <h2><span class="zh">三种合作方式</span><span class="en">Three Ways to Work With Us</span></h2>
       <div class="line"></div>
-      <p><span class="zh">欢迎来厂参观看样，或电话 / 邮件 / WhatsApp 洽谈合作</span><span class="en">Factory visits welcome. Reach us by phone, email or WhatsApp.</span></p>
+      <p><span class="zh">按你的渠道和订单结构选，不用迁就我们的生产节奏</span><span class="en">Pick the model that fits your channel and order size.</span></p>
     </div>
-    <div class="contact-grid">
-      <div class="box">
-        <b><span class="zh">工厂地址</span><span class="en">Factory Address</span></b>
-        <p><span class="zh">【待填：详细地址】</span><span class="en">[TBD: address]</span></p>
+    <div class="cards">
+      <div class="card">
+        <div class="idx">01</div>
+        <h3><span class="zh">批发供货</span><span class="en">Wholesale Supply</span></h3>
+        <p><span class="zh">面向国内批发市场档口，现货款与常备款按手/按件供货，补货周期短，适合走量与快速周转。</span><span class="en">Stock and running styles supplied by piece or by lot for wholesale stalls — short replenishment cycles, built for turnover.</span></p>
+        <a class="more" href="products"><span class="zh">款式与起订量 →</span><span class="en">Styles &amp; MOQ →</span></a>
       </div>
-      <div class="box">
-        <b><span class="zh">电话 / 微信</span><span class="en">Tel / WeChat</span></b>
-        <p><span class="zh">【待填：电话号码】</span><span class="en">[TBD: phone]</span></p>
+      <div class="card">
+        <div class="idx">02</div>
+        <h3>OEM / ODM</h3>
+        <p><span class="zh">外贸公司与品牌方贴牌代工：来图来样、改版打样、吊牌洗标、独立包装，按你的品牌出货。</span><span class="en">Private-label production for trading companies and brands: sample-based development, labels, hangtags, individual packing.</span></p>
+        <a class="more" href="products"><span class="zh">代工流程 →</span><span class="en">OEM process →</span></a>
       </div>
-      <div class="box">
-        <b>WhatsApp</b>
-        <p><span class="zh">【待填：WhatsApp 号码】</span><span class="en">[TBD: WhatsApp]</span></p>
-      </div>
-      <div class="box">
-        <b><span class="zh">商务邮箱</span><span class="en">E-mail</span></b>
-        <p>contact@barthoyashi.cn</p>
+      <div class="card">
+        <div class="idx">03</div>
+        <h3><span class="zh">高级定制</span><span class="en">Bespoke Tailoring</span></h3>
+        <p><span class="zh">团体定制与个人定制：量体、选料、试身、成衣，适合婚庆、企业制服、个人客户。</span><span class="en">Group and individual bespoke: measuring, fabric selection, fittings and finished garments for weddings, uniforms and private clients.</span></p>
+        <a class="more" href="contact"><span class="zh">预约量体 →</span><span class="en">Book a fitting →</span></a>
       </div>
     </div>
-    <p class="mail-note">
-      <span class="zh">* 企业邮箱统一以 @barthoyashi.cn 域名收发，商务往来请优先邮件联系。</span>
-      <span class="en">* All business mail is handled under the @barthoyashi.cn domain.</span>
-    </p>
   </div>
 </section>
+
+<section>
+  <div class="container">
+    <div class="sec-head">
+      <h2><span class="zh">从询盘到出货</span><span class="en">From Enquiry to Shipment</span></h2>
+      <div class="line"></div>
+      <p><span class="zh">四步走完，每一步都有明确交付物</span><span class="en">Four steps, each with a clear deliverable.</span></p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <h3><span class="zh">需求确认</span><span class="en">Brief</span></h3>
+        <p><span class="zh">款式、面料、数量、交期、目标价位，一次问清。</span><span class="en">Style, fabric, quantity, lead time and target price — settled in one pass.</span></p>
+      </div>
+      <div class="step">
+        <h3><span class="zh">报价与打样</span><span class="en">Quote &amp; Sample</span></h3>
+        <p><span class="zh">按面料与工艺出阶梯价，确认后安排产前样。</span><span class="en">Tiered pricing by fabric and workmanship, then a pre-production sample.</span></p>
+      </div>
+      <div class="step">
+        <h3><span class="zh">量产与品控</span><span class="en">Production &amp; QC</span></h3>
+        <p><span class="zh">封样后投产，中期与尾期两次验货。</span><span class="en">Bulk runs after sample approval, with mid-line and final inspection.</span></p>
+      </div>
+      <div class="step">
+        <h3><span class="zh">包装出货</span><span class="en">Packing &amp; Delivery</span></h3>
+        <p><span class="zh">按渠道要求折叠、挂装或独立包装，配合货代出货。</span><span class="en">Flat-packed, hanging or individually packed, coordinated with your forwarder.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2><span class="zh">先看样，再谈单</span><span class="en">See the Sample First</span></h2>
+    <p><span class="zh">把你的款式图、参考样衣或面料要求发过来，我们按你的标准报价。</span><span class="en">Send your sketches, reference garments or fabric specs and we will quote to your standard.</span></p>
+    <a class="btn btn-solid" href="contact"><span class="zh">发送询盘</span><span class="en">Send Enquiry</span></a>
+  </div>
+</section>
+</main>
 
 <footer>
   <div class="container">
-    © 2026 巴特雅仕 BARTHOYASHI · <span class="gold">www.barthoyashi.cn</span> ·
+    © <span id="year">2026</span> 巴特雅仕 BARTHOYASHI · <span class="gold">www.barthoyashi.cn</span> ·
     <span class="zh">保留所有权利</span><span class="en">All rights reserved</span>
+    <br>
+    <span class="zh"><a href="products">产品与代工</a> · <a href="about">关于工厂</a> · <a href="contact">联系我们</a></span>
+    <span class="en"><a href="products">Products</a> · <a href="about">Factory</a> · <a href="contact">Contact</a></span>
   </div>
 </footer>
 
-<script>
-  (function () {
-    var btn = document.getElementById('langToggle');
-    var saved = localStorage.getItem('by-lang');
-    if (saved === 'en') document.body.classList.add('lang-en');
-    btn.addEventListener('click', function () {
-      var isEn = document.body.classList.toggle('lang-en');
-      localStorage.setItem('by-lang', isEn ? 'en' : 'zh');
-    });
-  })();
-</script>
-
+<script src="assets/app.js"></script>
 </body>
 </html>

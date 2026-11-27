@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /images/
+Disallow: /.wrangler/
 
 Sitemap: https://www.barthoyashi.cn/sitemap.xml

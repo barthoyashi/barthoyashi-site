@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.barthoyashi.cn/</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.barthoyashi.cn/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.barthoyashi.cn/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.barthoyashi.cn/"/>
+  </url>
+  <url>
+    <loc>https://www.barthoyashi.cn/products</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.barthoyashi.cn/products"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.barthoyashi.cn/products?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.barthoyashi.cn/products"/>
+  </url>
+  <url>
+    <loc>https://www.barthoyashi.cn/about</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.barthoyashi.cn/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.barthoyashi.cn/about?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.barthoyashi.cn/about"/>
+  </url>
+  <url>
+    <loc>https://www.barthoyashi.cn/contact</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.barthoyashi.cn/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.barthoyashi.cn/contact?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.barthoyashi.cn/contact"/>
   </url>
 </urlset>
